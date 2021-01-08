@@ -27,7 +27,7 @@ export const useFetch = ( url ) => {
                         data
                     })
                 } else{
-                    console.log('setState no se lamó')
+                    console.log('setState was not called')
                 }
             })
             .catch( () => {
